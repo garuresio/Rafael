@@ -1,0 +1,299 @@
+html{
+    width: 100%;
+    background: url(../img/fondo2.jpg) transparent;
+    font-family: helvetica, arial, sans-serif;
+}
+body{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 100%;
+    display: inline-block;
+}
+img.s{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+img.afi{
+    margin-left: 6.5%;
+    max-width: 40%;
+    min-width: 40%;
+    max-height: 40%;
+    min-height: 40%;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    color: rgba(31,169,244,1);
+}
+
+a.link{
+    color: #003366;
+}
+
+div#titulo{
+    display: block;
+    width: 100%;
+    color:#09D4FF;
+    padding-top:0%;
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+
+div#letra{
+    width: 100%;
+    position: relative;
+    margin-top: -5%;
+    font-size: 3rem;
+    text-shadow: black 0.1rem 0.25rem 0.5rem;
+    text-align: right;
+}
+
+footer{
+    margin-left: -20%;
+    border-top-style: solid;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-left:0%;
+    display: block;
+    width: 120%;  
+    height: 100%;
+    color: #09D4FF;
+    text-align: center;
+    font-size:100%;
+    text-shadow: black 0.1em 0.1em 0.15em;
+    //background:url(../img/baner.jpg)  50% 10%;
+}
+
+#container {
+    width: 100%;
+    margin-top: -1%;
+    margin-left: 0%;
+}
+
+nav{
+    width: 18%;
+    float: left;
+  display:block;
+  overflow:hidden;
+}
+
+section#pestañas{
+    float: right;
+    min-width: 79%;
+    max-width: 79%;
+    margin-top: 0%;
+}
+
+ul.menu {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.menu li{
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color: #363636;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom:10%; 
+    
+    display: block;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(69,69,69)));
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-property: background;
+    -moz-transition-duration: 700ms;
+    }
+
+ul.menu li a:hover {
+    background: transparent none;
+}
+
+ul.menu[rel=sam1] li a{
+    background: #6699CC;
+}
+
+ul.menu[rel=sam1] li a:hover {
+    background: transparent none;
+}
+
+ul.menu li.active a{
+    background: transparent none;
+    background: -webkit-gradient(radial, 50% 1  00%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+}
+
+
+h2, h3, p
+{
+    margin: 0 0 15px 0;
+}
+
+ul#tabs
+{
+  overflow: auto;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#tabs li
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+ul#tabs a
+{
+    -moz-box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+    box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+    background: #ad1c1c;
+    background:    -moz-linear-gradient(220deg, transparent 10px, #ad1c1c 10px);
+    background:    -webkit-linear-gradient(220deg, transparent 10px, #ad1c1c 10px);     
+    background:     -ms-linear-gradient(220deg, transparent 10px, #ad1c1c 10px); 
+    background:      -o-linear-gradient(220deg, transparent 10px, #ad1c1c 10px); 
+    background:         linear-gradient(220deg, transparent 10px, #ad1c1c 10px);
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    color: #fff;
+    float: left;
+    font: bold 12px/35px 'Lucida sans', Arial, Helvetica;
+    height: 35px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+ul#tabs a:hover
+{
+    background: #c93434;
+    background:    -moz-linear-gradient(220deg, transparent 10px, #c93434 10px);
+    background:    -webkit-linear-gradient(220deg, transparent 10px, #c93434 10px);     
+    background:     -ms-linear-gradient(220deg, transparent 10px, #c93434 10px); 
+    background:      -o-linear-gradient(220deg, transparent 10px, #c93434 10px); 
+    background:         linear-gradient(220deg, transparent 10px, #c93434 10px);     
+}
+
+ul#tabs a:focus
+{
+    outline: 0;
+}
+
+ul#tabs #current a
+{
+    background: #fff;
+    background:    -moz-linear-gradient(220deg, transparent 10px, #fff 10px);
+    background:    -webkit-linear-gradient(220deg, transparent 10px, #fff 10px);     
+    background:     -ms-linear-gradient(220deg, transparent 10px, #fff 10px); 
+    background:      -o-linear-gradient(220deg, transparent 10px, #fff 10px); 
+    background:         linear-gradient(220deg, transparent 10px, #fff 10px);
+    text-shadow: none;    
+    color: #333;
+}
+
+div#content
+{
+    width: 92.5%;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+    background-image: -webkit-linear-gradient(top, #fff, #ddd); 
+    background-image:    -moz-linear-gradient(top, #fff, #ddd); 
+    background-image:     -ms-linear-gradient(top, #fff, #ddd); 
+    background-image:      -o-linear-gradient(top, #fff, #ddd); 
+    background-image:         linear-gradient(top, #fff, #ddd);
+    -moz-border-radius: 0 2px 2px 2px;
+    -webkit-border-radius: 0 2px 2px 2px;
+    border-radius: 0 2px 2px 2px;
+    -moz-box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+    -webkit-box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+    box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+    padding: 30px;
+}
+
+/* Remove the rule below if you want the content to be "organic" */
+div#content div
+{
+    width: 100%;
+    height: 100%;
+}
+
+table.acordes{
+    text-align: center;
+    border-left-style: solid;
+    border-top-style: solid;
+    margin-left:25%;
+        margin-bottom: 5%;
+        border-color: #003366;
+}
+
+table.acordes2{
+    display: inline-block;
+    text-align: center;
+    border-left-style: solid;
+    margin-left:10%;
+        margin-bottom: 5%;
+        border-color: #003366;
+}
+
+table.acordes td, th{
+    
+    border-right-style:solid;
+    border-bottom-style: solid;
+    border-color: #003366;
+}
+
+table.acordes2 th, td{
+    border-right-style:solid;
+    border-bottom-style: solid;
+    border-color: #003366;
+}
+
+table.acordes2 th{
+    border-top-style: solid;
+    border-right-style:solid;
+    border-bottom-style: solid;
+    border-color: #003366;
+}
+
+p.acor{
+    text-align: center;
+}
+
+img.aco{
+    margin-left: 20%;
+    max-width:  80%;
+    max-height: 50%;
+    min-height: 50%;
+}
+
+img.aco2{
+    margin-left: 15%;
+    max-width:  80%;
+    max-height: 40%;
+    min-height: 40%;
+}
